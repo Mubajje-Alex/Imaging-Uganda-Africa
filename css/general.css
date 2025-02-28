@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+  max-width: 950px;
+  margin: 0 auto;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  background-color: aliceblue;
+  font-family: Roboto, Arial;
+}
+
+h2 {
+  color: rgb(76, 0, 76);
+}
+
+h3 {
+  color: rgb(0, 70, 0);
+}

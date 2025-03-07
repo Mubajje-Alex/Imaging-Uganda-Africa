@@ -1,0 +1,12 @@
+footer {
+  border: 1px solid gray;
+  margin-top: 4px;
+  border-radius: 8px;
+  background-image: linear-gradient(gray, lightgray, gray);
+  padding: 5px;
+}
+
+footer a:link {
+  text-decoration: none;
+  font-size: 18px;
+}

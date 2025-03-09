@@ -58,6 +58,19 @@ dl figure {
   background-color: rgb(234, 234, 234);
 }
 
+/* case of wider images */
+.wider-images {
+  width: 350px;
+  height: 285px;
+}
+
+@media screen and (max-width: 413px) {
+  .wider-images {
+    width: 210px;
+    height: 175px;
+  }
+}
+
 .articles-flex a {
   text-decoration: none;
   font-size: 20px;

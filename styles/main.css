@@ -1,0 +1,73 @@
+main {
+  background-color: whitesmoke;
+  min-height: 55vh;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.list-no-style {
+  list-style: none;
+  margin-left: -40px;
+}
+
+main h1 {
+  color: rgb(0, 0, 170);
+  font-size: 30px;
+}
+
+main h2 {
+  color: rgb(0, 80, 0);
+}
+
+main h3 {
+  color: firebrick;
+}
+
+.page-nav {
+  margin: 10px;
+}
+.page-nav:link {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main img {
+  width: 200px;
+  height: 180px;
+}
+
+figure p {
+  display: inline-block;
+}
+
+dl figure {
+  margin-left: -10px;
+}
+
+.spaced-list li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.articles-flex p {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(234, 234, 234);
+}
+
+.articles-flex a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* case of wider images */
+.wider-images {
+  width: 350px;
+  height: 285px;
+}

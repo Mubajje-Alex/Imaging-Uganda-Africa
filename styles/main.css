@@ -33,8 +33,7 @@ main h3 {
 }
 
 main img {
-  width: 200px;
-  height: 180px;
+  height: 160px;
 }
 
 figure p {
@@ -64,10 +63,4 @@ dl figure {
 .articles-flex a {
   text-decoration: none;
   font-size: 20px;
-}
-
-/* case of wider images */
-.wider-images {
-  width: 350px;
-  height: 285px;
 }

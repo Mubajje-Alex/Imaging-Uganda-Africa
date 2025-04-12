@@ -43,10 +43,10 @@ document.addEventListener('DOMContentLoaded', function() {
               window.location.href = "/";
               break;
           case 'articles':
-              window.location.href = "../articles.html";
+              window.location.href = "https://imaging-uganda-africa.com/articles";
               break;
           case 'cases':
-              window.location.href = "cases.html";
+              window.location.href = "https://imaging-uganda-africa.com/cases";
               break;
           default:
               window.location.href = "/";

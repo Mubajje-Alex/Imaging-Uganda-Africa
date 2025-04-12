@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Liver Ultrasound",
           description: "Detailed explanation of liver ultrasound",
           content: "Includes indications, techinique, normal findings as well as pathological findings during liver ultrasound",
-          url: "liver.html",
+          url: "https://imaging-uganda-africa.com/articles/liver/liver.html",
           keywords: ["Liver", "Liver Ultrasound", "Hepatic cysts", "hemangioma", "liver masses", "Hydatid cyst"]
         },
         {
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Biliary hamartoma",
           description: "Explanation of the ultrasound features of biliary hamartoma.",
           content: "Meaning of biliary hamartoma, clinical presentation ultrasound features, differential diagnosis, Advanced Ultrasound Techniques and Clinical Significance of biliary hamartoma",
-          url: "biliary-hamartoma.html",
+          url: "https://imaging-uganda-africa.com/articles/liver/biliary-hamartoma.html",
           keywords: ["biliary hamartoma", "liver", "von Meyenburg complexes", "VMC"]
         },
         {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Glycogen storage disease",
           description: "Description of glycogen storage disease.",
           content: "indications, ultrasound features, disease specific findings, complications and monitering of glycogen storage disease",
-          url: "glycogenosis.html",
+          url: "https://imaging-uganda-africa.com/articles/liver/glycogenosis.html",
           keywords: ["glycogen", "glycogenosis", "liver",]
         },
         {
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Cirrhosis",
           description: "Ultrasound findings in cirrhosis.",
           content: "What is cirrhosis, Clinical presentation, Ultrasound features, Doppler Ultrasound in Cirrhosis and Complications of cirrhosis on Ultrasound",
-          url: "cirrhosis.html",
+          url: "https://imaging-uganda-africa.com/articles/liver/cirrhosis.html",
           keywords: ["cirrhosis", "glycogenosis", "liver",]
         },
         {
@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Liver candidiasis",
           description: "Ultrasound findings in liver candidiasis.",
           content: "Meaning of liver candidiasis, clinical presentation, Ultrasound features, differential diagnosis and management implications of liver candidiasis",
+          url: "https://imaging-uganda-africa.com/articles/liver/liver-candidiasis.html",
           keywords: ["Liver", "candidiasis",]
         },
         {
@@ -56,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Peribiliary cysts",
           description: "Ultrasound findings of peribiliary cysts.",
           content: "description of peribiliary cysts, ultrasound features, Differential Diagnosis, and Management of peribiliary cysts",
-          url: "/articles/seo-strategies",
+          url: "https://imaging-uganda-africa.com/articles/liver/peribiliary-cysts.html",
           keywords: ["Peribiliary cysts", "liver",]
         },
         {
@@ -64,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Polycystic liver disease",
           description: "Ultrasound features of polycystic liver disease.",
           content: "description of peribiliary cysts, ultrasound features, Differential Diagnosis, and Management of peribiliary cysts",
-          url: "/articles/seo-strategies",
+          url: "https://imaging-uganda-africa.com/articles/liver/polycystic-liver.html",
           keywords: ["polycystic liver", "PLD", "liver",]
         },
         {
@@ -72,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Portal hypertension",
           description: "Ultrasound features of portal hypertension.",
           content: "Description of portal hypertension, ultrasound features and associated findings of peribiliary cysts",
-          url: "/articles/seo-strategies",
+          url: "https://imaging-uganda-africa.com/articles/liver/portal-hypertension.html",
           keywords: ["portal hypertension", "cirrhosis", "dilated portal veins",]
         },
         {
@@ -80,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Schistosomiasis",
           description: "Ultrasound features of heptic schistosomiais.",
           content: "Description of hepatic schistosomiais, ultrasound features, pathophysiology, clinical presentation and prognosis of hepatic schistosomiasis",
-          url: "/articles/seo-strategies",
+          url: "https://imaging-uganda-africa.com/articles/liver/schistosomiasis.html",
           keywords: ["hepatic schistosomiasis", "schistosomiais", "liver",]
         },
       ],
@@ -90,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Pelvic Inflammatory Disease (PID)",
           description: "A 28-year-old female with lower abdominal pain, fever and vaginal discharge.",
           content: "About case presentation, Pysical examination, ultrasound findings diagnosis and the differential diagnoses.",
-          url: "/cases/pid.html",
+          url: "https://imaging-uganda-africa.com/cases/pid.html",
           keywords: ["PID", "Pelvic Inflammatory Disease", "Cogwheel", "pyosalpinx", "LAP", "Lower abdominal pain", "STIs", "Sexually Transmited Diseases", "Pelvic fluid", "Pouch Of Douglas", "Fluid filled tubes", "Fallopian tubes"]
         },
       ]

@@ -118,13 +118,21 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/pid.html",
           keywords: ["PID", "Pelvic Inflammatory Disease", "Cogwheel", "pyosalpinx", "LAP", "Lower abdominal pain", "STIs", "Sexually Transmited Diseases", "Pelvic fluid", "Pouch Of Douglas", "Fluid filled tubes", "Fallopian tubes"]
         },
-          {
+        {
           id: 102,
           title: "Thyroiditis",
           description: "A 42-year-old female with neck swelling, discomfort and fatigue x 3 weeks.",
           content: "Presentation, Pysical examination, ultrasound findings, diagnosis and the differential diagnoses of Thyroidis.",
           url: "https://imaging-uganda-africa.com/cases/thyroiditis.html",
           keywords: ["Thyroid", "Thyroiditis", "Hashimoto's thyroiditis", "Neck swelling", "goitre", "Diffuse goitre"]
+        },
+        {
+          id: 103,
+          title: "Acute Splenic sequestration",
+          description: "An 8-year-old male with HbSS disease complaining of left upper quadrant pain.",
+          content: "Presentation, Pysical examination, ultrasound findings, diagnosis and the differential diagnoses of acute splenic sequestration.",
+          url: "https://imaging-uganda-africa.com/cases/acute-splenic-sequestration.html",
+          keywords: ["Spleen", "Sequestration", "Sickle cell"]
         },
       ]
     };

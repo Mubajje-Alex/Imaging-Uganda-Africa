@@ -84,6 +84,30 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/liver/schistosomiasis.html",
           keywords: ["hepatic schistosomiasis", "schistosomiais", "liver",]
         },
+          {
+          id: 10,
+          title: "Spleen ultrasound",
+          description: "Detailes of splenic ultrasound.",
+          content: "Anatomy, indication, normal findings as well as pathological findings during splenic ultrasound",
+          url: "https://imaging-uganda-africa.com/articles/spleen/spleen.html",
+          keywords: ["Spleen", "Splenic ultrasound", "Spleen masses",]
+        },
+        {
+          id: 11,
+          title: "Splenomegaly",
+          description: "Splenomegaly and ultrasound.",
+          content: "Details of clinical presentation, ultrasound findings and possible causes of splenomegaly",
+          url: "https://imaging-uganda-africa.com/articles/spleen/splenomegaly.html",
+          keywords: ["Spleen", "Splenomegaly", "Enlarged spleen", "Splenic masses"]
+        },
+        {
+          id: 9,
+          title: "Splenic cyst",
+          description: "Ultrasound features of Splenic cysts.",
+          content: "Range of ultrasound image appearences of splenic cysts and there classifation",
+          url: "https://imaging-uganda-africa.com/articles/spleen/splenic-cysts.html",
+          keywords: ["Splenic cyst", "Spleen", "hydatid spleen cyst", "Infected splenic cyst", "hemorrhagic splenic cyst", "simple splenic cysts"]
+        },
       ],
       cases: [
         {

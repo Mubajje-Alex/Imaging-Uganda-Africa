@@ -101,12 +101,20 @@ document.addEventListener('DOMContentLoaded', function() {
           keywords: ["Spleen", "Splenomegaly", "Enlarged spleen", "Splenic masses"]
         },
         {
-          id: 9,
+          id: 12,
           title: "Splenic cyst",
           description: "Ultrasound features of Splenic cysts.",
           content: "Range of ultrasound image appearences of splenic cysts and there classifation",
           url: "https://imaging-uganda-africa.com/articles/spleen/splenic-cysts.html",
           keywords: ["Splenic cyst", "Spleen", "hydatid spleen cyst", "Infected splenic cyst", "hemorrhagic splenic cyst", "simple splenic cysts"]
+        },
+          {
+          id: 13,
+          title: "Splenic Trauma",
+          description: "Ultrasound features of Splenic cysts.",
+          content: "Splenic trauma, range of image appearences FAST and grading of splenic injuries",
+          url: "https://imaging-uganda-africa.com/articles/spleen/splenic-cysts.html",
+          keywords: ["Splenic trauma", "FAST", "EFAST", "E-FAST", "extended focused assessment with sonography in trauma", "spleen hematoma", "subcapsular hematoma", "Spleen laceration"]
         },
       ],
       cases: [

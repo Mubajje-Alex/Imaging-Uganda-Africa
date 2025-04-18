@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
           title: "Splenic Trauma",
           description: "Ultrasound features of Splenic cysts.",
           content: "Splenic trauma, range of image appearences FAST and grading of splenic injuries",
-          url: "https://imaging-uganda-africa.com/articles/spleen/splenic-cysts.html",
+          url: "https://imaging-uganda-africa.com/articles/spleen/splenic-trauma.html",
           keywords: ["Splenic trauma", "FAST", "EFAST", "E-FAST", "extended focused assessment with sonography in trauma", "spleen hematoma", "subcapsular hematoma", "Spleen laceration"]
         },
       ],

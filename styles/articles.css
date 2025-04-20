@@ -77,6 +77,10 @@ body {
   margin-bottom: 0.5rem;
 }
 
+li li {
+  margin-left: 14px;
+}
+
 /* Comparison Layout */
 .comparison-grid {
   display: grid;

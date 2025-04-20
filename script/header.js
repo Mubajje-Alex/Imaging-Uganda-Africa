@@ -142,6 +142,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/acute-splenic-sequestration.html",
           keywords: ["Spleen", "Sequestration", "Sickle cell"]
         },
+          {
+          id: 104,
+          title: "Ectopic pregnancy - Utrasound case",
+          description: "A 28-year-old female with right lower quadrant pain and vaginal spotting.",
+          content: "Presentation, Emergency findings, ultrasound findings, diagnosis and the differential diagnoses of ectopic pregnancy.",
+          url: "https://imaging-uganda-africa.com/cases/ectopic-pregnancy.html",
+          keywords: ["Ectopic pregnancy", "EUP", "Ring of fire", "Extrauterine pregnancy", "Hemoperitoneum"]
+        },
       ]
     };
 

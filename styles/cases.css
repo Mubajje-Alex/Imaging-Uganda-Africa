@@ -101,45 +101,6 @@ main h4 {
   margin: 20px 0;
 }
 
-/* Footer */
-footer {
-  background: var(--dark);
-  color: white;
-  padding: 3rem 0 1.5rem;
-}
-.footer-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-.footer-column h3 {
-  color: var(--accent);
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
-.footer-links {
-  list-style: none;
-}
-.footer-links li {
-  margin-bottom: 0.5rem;
-}
-.footer-links a {
-  color: #adb5bd;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-.footer-links a:hover {
-  color: white;
-}
-.footer-bottom {
-  text-align: center;
-  padding-top: 1.5rem;
-  border-top: 1px solid #495057;
-  font-size: 0.9rem;
-  color: #adb5bd;
-}
-
 @media (max-width: 576px) {
   .case-content {
     padding: 1.5rem;

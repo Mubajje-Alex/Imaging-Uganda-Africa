@@ -38,11 +38,11 @@ body {
 }
 
 .title {
-  color: darkblue;
+  color: rgb(35, 35, 196);
   margin-bottom: 1px;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--border);
-  font-size: 2.0rem;
+  font-size: 22px;
 }
 .article-section {
   margin-bottom: 3rem;
@@ -51,17 +51,31 @@ body {
   color: rgb(0, 105, 0);
   margin-bottom: 1px;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--border);
-  font-size: 1.5rem;
+  border-bottom: 2px solid rgb(235, 251, 235);
+  font-size: 20px;
+  font-weight: 500;
 }
 .article-section h3 {
   color: var(--secondary);
-  margin: 1.5rem 0 1rem;
-  font-size: 1.4rem;
+  /* margin: 2px 0 1rem; */
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .article-section p {
-  margin-bottom: 1rem;
+  margin-top: 18px;
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+#pathological-findings a {
+  color: #1e90ff;
+  font-weight: 500;
 }
 
 .feature-box {
@@ -213,13 +227,16 @@ li li {
 }
 .key-points h3 {
   color: var(--primary);
-  margin-bottom: 1rem;
+  margin-bottom: 2px;
 }
 .key-points ul {
   padding-left: 1.5rem;
 }
 .key-points li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.key-points p {
+  margin: 5px;
 }
 
 /* Responsive Adjustments */

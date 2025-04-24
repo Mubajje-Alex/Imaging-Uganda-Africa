@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
           id: 14,
           title: "Biliary tree ultrasound",
-          description: "Ultrasound features of Splenic cysts. The biliary tree is a branching system of ducts that delivers bile produced in the hepatic parenchyma toward the gallbladder and duodenum.",
+          description: "The biliary tree is a branching system of ducts that delivers bile produced in the hepatic parenchyma toward the gallbladder and duodenum.",
           content: "Biliary tree anatomy, Bile ducts, Indications, scanning technique, normal findings and pathological findings",
           url: "https://imaging-uganda-africa.com/articles/biliary-tree/biliary-tree.html",
           keywords: ["Biliary tree anatomy, Bile ducts, Biliary tree, Biliary trees, Hepatobiliary, gallbladder"]

@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/liver/schistosomiasis.html",
           keywords: ["hepatic schistosomiasis", "schistosomiais", "liver",]
         },
-          {
+        {
           id: 10,
           title: "Spleen ultrasound",
           description: "Detailes of splenic ultrasound.",
@@ -108,13 +108,37 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/spleen/splenic-cysts.html",
           keywords: ["Splenic cyst", "Spleen", "hydatid spleen cyst", "Infected splenic cyst", "hemorrhagic splenic cyst", "simple splenic cysts"]
         },
-          {
+        {
           id: 13,
           title: "Splenic Trauma",
           description: "Ultrasound features of Splenic cysts.",
           content: "Splenic trauma, range of image appearences FAST and grading of splenic injuries",
           url: "https://imaging-uganda-africa.com/articles/spleen/splenic-trauma.html",
           keywords: ["Splenic trauma", "FAST", "EFAST", "E-FAST", "extended focused assessment with sonography in trauma", "spleen hematoma", "subcapsular hematoma", "Spleen laceration", "Splenic rapture"]
+        },
+        {
+          id: 14,
+          title: "Biliary tree ultrasound",
+          description: "Ultrasound features of Splenic cysts. The biliary tree is a branching system of ducts that delivers bile produced in the hepatic parenchyma toward the gallbladder and duodenum.",
+          content: "Biliary tree anatomy, Bile ducts, Indications, scanning technique, normal findings and pathological findings",
+          url: "https://imaging-uganda-africa.com/articles/biliary-tree/biliary-tree.html",
+          keywords: ["Biliary tree anatomy, Bile ducts, Biliary tree, Biliary trees, Hepatobiliary, gallbladder"]
+        },
+        {
+          id: 15,
+          title: "Biliary tree infections",
+          description: "Ultrasound of biliary tree and its infections.",
+          content: "Ascending cholangitis, Liver fluke infections, Reccurent pyogenic cholangitis, Biliary ascariasis, and HIV cholangiopathy",
+          url: "https://imaging-uganda-africa.com/articles/biliary-tree/biliary-tree-infection.html",
+          keywords: ["SAcute cholangitis, Liver fluke infection, Biliary ascariasis, HIV cholangiopathy, cholangitis, Bacterial acute cholangitis (BAC), Obstructive cholangitis, Ascending cholangitis, Acute ascending cholangitis, acute ascending cholangitis, Hepatobiliary"]
+        },
+        {
+          id: 16,
+          title: "Gallbladder ultrasound",
+          description: "Gallbladder ultrasound technique and interpretation.",
+          content: "Gallbladder anatomy, clinical indections, Normal sonographic findings, and pathological findings",
+          url: "https://imaging-uganda-africa.com/articles/biliary-tree/gallbladder.html",
+          keywords: ["Gallbladder ultrasound, Gallbladder sonography , gallbladder carcinoma, cholelithiasis, cholecystitis, acute cholecystitis chronic cholecystitis, gallbladder adenomyosis, Hepatobiliary"]
         },
       ],
       cases: [
@@ -142,9 +166,9 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/acute-splenic-sequestration.html",
           keywords: ["Spleen", "Sequestration", "Sickle cell"]
         },
-          {
+        {
           id: 104,
-          title: "Ectopic pregnancy - Utrasound case",
+          title: "Ectopic pregnancy - Ultrasound case",
           description: "A 28-year-old female with right lower quadrant pain and vaginal spotting.",
           content: "Presentation, Emergency findings, ultrasound findings, diagnosis and the differential diagnoses of ectopic pregnancy.",
           url: "https://imaging-uganda-africa.com/cases/ectopic-pregnancy.html",

@@ -174,6 +174,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/ectopic-pregnancy.html",
           keywords: ["Ectopic pregnancy", "EUP", "Ring of fire", "Extrauterine pregnancy", "Hemoperitoneum"]
         },
+          {
+          id: 105,
+          title: "Cholangitis - Ultrasound case",
+          description: "A 72-year-old male with fever, jaundice, and RUQ pain (Charcot's triad).",
+          content: "Presentation, Emergency findings, ultrasound findings, diagnosis and the differential diagnoses of acute cholangitis.",
+          url: "https://imaging-uganda-africa.com/cases/cholangitis.html",
+          keywords: ["Acute cholangitis", "cholangitis", "Bacterial acute cholangitis (BAC)", "Obstructive cholangitis", "Ascending cholangitis", "Acute ascending cholangitis", "acute ascending cholangitis"]
+        },
       ]
     };
 

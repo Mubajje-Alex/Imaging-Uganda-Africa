@@ -182,6 +182,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/cholangitis.html",
           keywords: ["Acute cholangitis", "cholangitis", "Bacterial acute cholangitis (BAC)", "Obstructive cholangitis", "Ascending cholangitis", "Acute ascending cholangitis", "acute ascending cholangitis"]
         },
+          {
+          id: 106,
+          title: "Hepatic abscess - Ultrasound case",
+          description: "A 22-year-old male with fever (39.1°C) and RUQ pain for 5 days.",
+          content: "Presentation, ultrasound findings, diagnosis and the differential diagnoses of acute cholangitis.",
+          url: "https://imaging-uganda-africa.com/cases/liver-abscess-1",
+          keywords: ["Hepatic abscess", "Pyogenic liver abscess", "Liver abscess", "Liver abscesses", "Hepatic abscesses", "infection", "infectious disease"]
+        },
       ]
     };
 

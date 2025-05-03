@@ -7,40 +7,40 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'G-P6QBTRHJBX');
     </script>
     
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Radiology case">
-    <link rel="icon" href="images/imaging-logo.jpg" type="image/x-icon">
-    <title>Imaging-Uganda-Africa | Cases</title>
-    
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles/articles-main.css">
-    <link rel="stylesheet" href="styles/search.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/newsletter.css">
-
+    <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9229143965689002"
      crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/imaging-logo.jpg" type="image/x-icon">
+    <title>Imaging-Uganda-Africa | Cases</title>
+    <meta name="description" content="Educational radiology cases with imaging studies and interpretations">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/articles-main.css">
+
   </head>
   <body>
+    <!-- Header Section -->
     <header class="header">
       <div class="header-left">
         <div class="logo-container">
-          <img src="/images/imaging-logo.jpg" alt="Website Logo" class="logo">
-            <h1 class="website-name">Imaging Uganda/Africa</h1>
-            </div>
-            
-          <nav class="nav">
-          <button class="nav-button active js-nav-button" id="homeButton">
+          <img src="images/imaging-logo.jpg" alt="Imaging Logo" class="logo">
+          <h1 class="website-name">Imaging Uganda/Africa</h1>
+        </div>
+        <nav class="nav">
+          <button class="nav-button" id="homeButton">
             <i class="fas fa-home"></i>
             <span>Home</span>
           </button>
-          <button class="nav-button" id="articlesButton">
+          <button class="nav-button active" id="articlesButton">
             <i class="fas fa-newspaper"></i>
             <span>Articles</span>
           </button>
@@ -52,7 +52,7 @@
       </div>
 
       <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search..." class="search-input">
+        <input type="text" id="searchInput" placeholder="Search articles..." class="search-input">
         <button id="searchButton" class="search-button">
           <i class="fas fa-search"></i>
         </button>
@@ -60,138 +60,171 @@
       </div>
     </header>
 
+    <!-- Top Banner Ad -->
+    <div class="ad-container top-banner">
+      <!-- AdSense Ad -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9229143965689002"
+     crossorigin="anonymous"></script>
+      <!-- in article ad -->
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-9229143965689002"
+        data-ad-slot="5271389384"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <!-- Main Content -->
     <main class="main-content">
-      <section class="content-section">
-        <h2 class="section-title">Radiology Cases</h2>
-        <div class="thumbnail-grid">
+      <div class="page-header">
+        <h1>Radiology Cases</h1>
+        <p>Explore our collection of educational radiology cases with imaging studies, clinical history, and expert interpretations..</p>
+      </div>
 
-          <!-- Case Study 1 -->
-          <a href="cases/pid.html" class="thumbnail-card">
-            <div class="thumbnail-image" style="background-image: url('https://via.placeholder.com/400x225')"><img src="/images/pid/pid-pyosalpinx-sign-of-the-Cogwheel-1.png" alt="Pelvic inflammatory disease"></div>
-            <div class="thumbnail-content">
-              <h3>Pelvic Inflammatory Disease (PID)</h3>
-              <p>History of STIs, multiple partners, fever, and cervical motion tenderness, PID is highly suspected. Ultrasound is requested to assess for complications (tubo-ovarian abscess, pyosalpinx).</p>
-              <span class="read-more">View Case <i class="fas fa-arrow-right"></i></span>
-            </div>
-          </a>
-
-          <!-- Case Study 2 -->
-          <a href="cases/thyroiditis.html" class="thumbnail-card">
-            <div class="thumbnail-image" style="background-image: url('https://via.placeholder.com/400x225')"><img src="/images/thyroid/thyroiditis-left-2.jpg" alt="Thyroiditis"></div>
-            <div class="thumbnail-content">
-              <h3>Thyroiditis</h3>
-              <p>A 42-year-old female with neck swelling, discomfort and fatigue x 3 weeks</p>
-              <span class="read-more">View Case <i class="fas fa-arrow-right"></i></span>
-            </div>
-          </a>
-          <!-- Case Study 3 -->
-          <a href="cases/acute-splenic-sequestration.html" class="thumbnail-card">
-            <div class="thumbnail-image" style="background-image: url('https://via.placeholder.com/400x225')"><img src="/images/spleen/splenic-sequestilization.png" alt="Splenic sequestration"></div>
-            <div class="thumbnail-content">
-              <h3>Acute splenic sequestration</h3>
-              <p>An 8-year-old male with HbSS disease complaining of  left upper quadrant pain</p>
-              <span class="read-more">View Case <i class="fas fa-arrow-right"></i></span>
-            </div>
-          </a>
-          <!-- Case Study 4 -->
-          <a href="https://imaging-uganda-africa.com/cases/ectopic-pregnancy.html" class="thumbnail-card">
-            <div class="thumbnail-image" style="background-image: url('https://via.placeholder.com/400x225')"><img src="/images/ectopic-pregnancy/ectopic-pregnancy-ring-of-fire.jpeg" alt="Ectopic pregnancy"></div>
-            <div class="thumbnail-content">
-              <h3>Ectopic pregnancy</h3>
-              <p>A 28-year-old female with right lower quadrant pain and vaginal spotting</p>
-              <span class="read-more">View Case <i class="fas fa-arrow-right"></i></span>
-            </div>
-          </a>
-          <!-- Case Study 5 -->
-          <a href="https://imaging-uganda-africa.com/cases/cholangitis.html#google_vignette" class="thumbnail-card">
-            <div class="thumbnail-image" style="background-image: url('https://via.placeholder.com/400x225')"><img src="/images/biliary-tree/cholangitis-case-cbd-dilatation-stone.jpeg" alt="Cholangitis"></div>
-            <div class="thumbnail-content">
-              <h3>Cholangitis</h3>
-              <p>A 72-year-old male with fever, jaundice, and RUQ pain (Charcot's triad)</p>
-              <span class="read-more">View Case <i class="fas fa-arrow-right"></i></span>
-            </div>
-            </a>
-          <!-- Case Study 6 -->
-          <a href="https://imaging-uganda-africa.com/cases/liver-abscess-1" class="thumbnail-card">
-            <div class="thumbnail-image" style="background-image: url('https://via.placeholder.com/400x225')"><img src="/images/liver/liver-abscess-case-25th-april-2025.png" alt="Liver abscess"></div>
-            <div class="thumbnail-content">
-              <h3>Liver abscess</h3>
-              <p>A 22-year-old male with fever (39.1°C) and RUQ pain for 5 days</p>
-              <span class="read-more">View Case <i class="fas fa-arrow-right"></i></span>
-            </div>
-          </a>
+      <!-- Case List -->
+      <div class="articles-container">
+        <!-- Case 1 -->
+        <a href="https://imaging-uganda-africa.com/cases/pid.html" class="article-row">
+          <div class="article-thumbnail">
+            <img src="/images/pid/pid-free-fluid-2.jpg" alt="PID free fluid ultrasound">
           </div>
-        </div>
-      </section>
+          <div class="article-content">
+            <div class="article-meta">
+              <span class="article-category">Abdominal Imaging</span>
+              <span class="article-date"><i class="far fa-calendar-alt"></i> April 2, 2025</span>
+            </div>
+            <h2 class="article-title">Pelvic Inflammatory Disease (PID) - Ultrasound Case</h2>
+            <p class="article-excerpt">History of STIs, multiple partners, fever, and cervical motion tenderness, PID is highly suspected. Ultrasound is requested to assess for complications (tubo-ovarian abscess, pyosalpinx).</p>
+            <span class="read-article">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Case 2 -->
+        <a href="https://imaging-uganda-africa.com/cases/thyroiditis" class="article-row">
+          <div class="article-thumbnail">
+            <img src="/images/thyroid/throiditis-isthmus-3.jpg" alt="Thyroiditis ultrasound">
+          </div>
+          <div class="article-content">
+            <div class="article-meta">
+              <span class="article-category">Neck sonography</span>
+              <span class="article-date"><i class="far fa-calendar-alt"></i> April 13, 2025</span>
+            </div>
+            <h2 class="article-title">Thyroiditis - Ultrasound case 1</h2>
+            <p class="article-excerpt">A 42-year-old female with neck swelling, discomfort and fatigue x 3 weeks.</p>
+            <span class="read-article">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Case 3 -->
+        <a href="https://imaging-uganda-africa.com/cases/acute-splenic-sequestration" class="article-row">
+          <div class="article-thumbnail">
+            <img src="/images/spleen/splenic-sequestilization.png" alt="Acute splenic sequestration ultrasound">
+          </div>
+          <div class="article-content">
+            <div class="article-meta">
+              <span class="article-category">Abdominal sonography</span>
+              <span class="article-date"><i class="far fa-calendar-alt"></i> April 17, 2023</span>
+            </div>
+            <h2 class="article-title">Acute Splenic sequestration: Ultrasound case</h2>
+            <p class="article-excerpt">An 8-year-old male with HbSS disease complaining of  left upper quadrant pain.</p>
+            <span class="read-article">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Case 4 -->
+        <a href="https://imaging-uganda-africa.com/cases/cholangitis" class="article-row">
+          <div class="article-thumbnail">
+            <img src="/images/biliary-tree/cholangitis-case-cbd-dilatation-stone.jpeg" alt="Cholangitis ultrasound">
+          </div>
+          <div class="article-content">
+            <div class="article-meta">
+              <span class="article-category">Abdominal sonography</span>
+              <span class="article-date"><i class="far fa-calendar-alt"></i> April 24, 2023</span>
+            </div>
+            <h2 class="article-title">Cholangitis - Ultrasound case</h2>
+            <p class="article-excerpt">A 72-year-old male with fever, jaundice, and RUQ pain (Charcot's triad).</p>
+            <span class="read-article">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Case 5 -->
+        <a href="https://imaging-uganda-africa.com/cases/ectopic-pregnancy" class="article-row">
+          <div class="article-thumbnail">
+            <img src="/images/ectopic-pregnancy/ectopic-pregnancy-ring-of-fire.jpeg" alt="Ectopic pregnancy">
+          </div>
+          <div class="article-content">
+            <div class="article-meta">
+              <span class="article-category">Gyne sonography</span>
+              <span class="article-date"><i class="far fa-calendar-alt"></i> April 20, 2025</span>
+            </div>
+            <h2 class="article-title">Ectopic pregnancy - Ultrasound Case</h2>
+            <p class="article-excerpt">A 28-year-old female with right lower quadrant pain and vaginal spotting.</p>
+            <span class="read-article">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Case 6 -->
+        <a href="https://imaging-uganda-africa.com/cases/liver-abscess-1" class="article-row">
+          <div class="article-thumbnail">
+            <img src="/images/liver/liver-abscess-case-25th-april-2025.png" alt="Liver abscess ultrasound">
+          </div>
+          <div class="article-content">
+            <div class="article-meta">
+              <span class="article-category">Abdominal sonography</span>
+              <span class="article-date"><i class="far fa-calendar-alt"></i> February 18, 2023</span>
+            </div>
+            <h2 class="article-title">Liver abscess - Ultrasound Case</h2>
+            <p class="article-excerpt">A 22-year-old male with fever (39.1°C) and RUQ pain for 5 days.</p>
+            <span class="read-article">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <a href="#" class="page-link"><i class="fas fa-chevron-left"></i></a>
+        <a href="#" class="page-link active">1</a>
+        <a href="#" class="page-link">2</a>
+        <a href="#" class="page-link">3</a>
+        <a href="#" class="page-link">4</a>
+        <a href="#" class="page-link"><i class="fas fa-chevron-right"></i></a>
+      </div>
+
+      <!-- In-content Ad -->
+      <div class="ad-container in-content">
+        <!-- AdSense Ad -->
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-9229143965689002"
+          data-ad-slot="MID_CONTENT_SLOT"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+        <script src="script/adsByGoogle.js"></script>
+      </div>
     </main>
 
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-column">
-          <h3 class="footer-title">Imaging Uganda/Africa</h3>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="about.html">Our Team</a></li>
-            <li><a href="about.html">Careers</a></li>
-            <li><a href="about.html">Press</a></li>
-            <li><a href="about.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3 class="footer-title">Resources</h3>
-          <ul class="footer-links">
-            <li><a href="articles.html">All Articles</a></li>
-            <li><a href="cases.html">Radiology Cases</a></li>
-            <!-- <li><a href="whitepapers.html">Whitepapers</a></li>
-            <li><a href="webinars.html">Webinars</a></li>
-            <li><a href="blog.html">Blog</a></li> -->
-          </ul>
-        </div>
-        <!-- <div class="footer-column">
-          <h3 class="footer-title">Legal</h3>
-          <ul class="footer-links">
-            <li><a href="/privacy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="/cookies">Cookie Policy</a></li>
-            <li><a href="/gdpr">GDPR Compliance</a></li>
-            <li><a href="/sitemap">Sitemap</a></li>
-          </ul>
-        </div> -->
-        <div class="footer-column">
-          <h3 class="footer-title">Connect</h3>
-          <div class="social-links">
-            <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://linkedin.com" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://youtube.com" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-          </div>
-          <div class="newsletter">
-            <h4>Subscribe to our newsletter</h4>
-            <form class="newsletter-form">
-              <input type="email" placeholder="Your email address" required>
-              <button type="submit">Subscribe</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Imaging Uganda/Africa. All rights reserved.</p>
-        <div class="footer-lang">
-          <select aria-label="Language selector">
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-            <option value="de">Deutsch</option>
-          </select>
-        </div>
-      </div>
-    </footer>
-
-    <script src="script/index.js"></script>
     <script src="script/header.js"></script>
     <script src="script/navButtons.js"></script>
     <script src="script/newslatter.js"></script>
+
+    <script>
+      // Set active nav button
+      document.getElementById('casesButton').classList.add('active');
+      document.getElementById('homeButton').classList.remove('active');
+      document.getElementById('articlesButton').classList.remove('active');
+      
+      // Load ads after content
+      document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+          var ads = document.querySelectorAll('.adsbygoogle');
+          ads.forEach(function(ad) {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          });
+        }, 500);
+      });
+    </script>
   </body>
 </html>

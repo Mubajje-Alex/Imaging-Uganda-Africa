@@ -198,6 +198,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/liver-abscess-1",
           keywords: ["Hepatic abscess", "Pyogenic liver abscess", "Liver abscess", "Liver abscesses", "Hepatic abscesses", "infection", "infectious disease"]
         },
+          {
+          id: 107,
+          title: "Pancreatic pseudocyst",
+          description: "A 45-year-old male with history of recurrent pancreatitis presents with epigastric pain and early satiety",
+          content: "Presentation, ultrasound findings, diagnosis and the differential diagnoses of pancreatic pseudocysts.",
+          url: "https://imaging-uganda-africa.com/cases/pancreatic-pseudal-cyst-case-1",
+          keywords: ["Pancreatic pseudocyst", "Pancreas ultrasound", "Pancreatic cyst", "Pancreatic fluid collection", "Pancreatitis complication", "Imaging Uganda/Africa"]
+        },
       ]
     };
 

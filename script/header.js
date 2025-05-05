@@ -140,6 +140,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/biliary-tree/gallbladder.html",
           keywords: ["Gallbladder ultrasound, Gallbladder sonography , gallbladder carcinoma, cholelithiasis, cholecystitis, acute cholecystitis chronic cholecystitis, gallbladder adenomyosis, Hepatobiliary"]
         },
+          {
+          id: 17,
+          title: "Pancreatic ultrasound",
+          description: "Pancreatic ultrasound technique and interpretation.",
+          content: "Pancreatic anatomy, clinical indections, Normal sonographic findings, and pathological findings",
+          url: "https://imaging-uganda-africa.com/articles/pancreas/pancreas",
+          keywords: ["Pancreas ultrasound, Pancreatic sonography, Pancreatitis, Pancreatic cancer, Pancreatic cysts, Imaging Uganda/Africa, Endocrine pancreas, Exocrine pancreas"]
+        },
       ],
       cases: [
         {

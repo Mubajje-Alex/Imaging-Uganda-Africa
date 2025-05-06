@@ -326,6 +326,18 @@ li li {
   nav ul {
     gap: 1rem;
   }
+
+  .adsbygoogle {
+    width: 100% !important;
+    height: 100px; /* Fixed height for mobile */
+    margin: 0 auto; /* Center the ad */
+  }
+  
+  /* Ensure content doesn't shift */
+  main.container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media (max-width: 576px) {

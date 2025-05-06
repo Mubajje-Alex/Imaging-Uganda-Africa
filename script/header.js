@@ -206,6 +206,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/pancreatic-pseudal-cyst-case-1",
           keywords: ["Pancreatic pseudocyst", "Pancreas ultrasound", "Pancreatic cyst", "Pancreatic fluid collection", "Pancreatitis complication", "Imaging Uganda/Africa"]
         },
+          {
+          id: 108,
+          title: "Acute appendicitis",
+          description: "Detailed ultrasound case study of acute appendicitis in a pediatric patient.",
+          content: "Learn key diagnostic features including non-compressible appendix, target sign, and periappendiceal fat inflammation.",
+          url: "https://imaging-uganda-africa.com/cases/acute-appendicitis",
+          keywords: ["acute appendicitis", "ultrasound diagnosis", "pediatric appendicitis", "radiology case", "ultrasound findings", "appendicitis imaging"]
+        },
       ]
     };
 

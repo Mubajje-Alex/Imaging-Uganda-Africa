@@ -1,8 +1,8 @@
 html {
   overflow-y: scroll; /* Force scrollbar to always be present */
    /* Compensate for scrollbar width */
-/*   margin-left: calc(100vw - 100%);
-} */
+/*   margin-left: calc(100vw - 100%); */
+}
 
 * {
   margin: 0;

@@ -25,6 +25,33 @@
   margin: 2rem auto 0;
 }
 
+/* Compact Articles Page Styles */
+.main-content {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 0 1.25rem;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.page-header h1 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: #7f8c8d;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /* Compact Article Rows */
 .articles-container {
   display: flex;

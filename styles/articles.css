@@ -330,7 +330,6 @@ li li {
 
   .adsbygoogle {
     width: 100% !important;
-    height: 80px; /* Fixed height for mobile */
     margin: 0 auto; /* Center the ad */
   }
   

@@ -55,9 +55,8 @@ body {
 
 .adsbygoogle {
   width: 100% !important;
-  max-width: 380px; /* Keep your desired max width */
+  max-width: 780px; /* Keep your desired max width */
   height: auto;
-  min-height: 100px; /* Set appropriate minimum height */
 }
 
 /* Main Content Layout */

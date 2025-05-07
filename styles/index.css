@@ -400,6 +400,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+}
+
 /* Animation */
 @keyframes fadeInUp {
   from {

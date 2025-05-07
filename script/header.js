@@ -140,13 +140,61 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/biliary-tree/gallbladder.html",
           keywords: ["Gallbladder ultrasound, Gallbladder sonography , gallbladder carcinoma, cholelithiasis, cholecystitis, acute cholecystitis chronic cholecystitis, gallbladder adenomyosis, Hepatobiliary"]
         },
-          {
+        {
           id: 17,
           title: "Pancreatic ultrasound",
           description: "Pancreatic ultrasound technique and interpretation.",
           content: "Pancreatic anatomy, clinical indections, Normal sonographic findings, and pathological findings",
           url: "https://imaging-uganda-africa.com/articles/pancreas/pancreas",
           keywords: ["Pancreas ultrasound, Pancreatic sonography, Pancreatitis, Pancreatic cancer, Pancreatic cysts, Imaging Uganda/Africa, Endocrine pancreas, Exocrine pancreas"]
+        },
+        {
+          id: 18,
+          title: "Appendicitis Ultrasound",
+          description: "Ultrasound features of acute and chronic appendicitis with comparison of diagnostic criteria, imaging findings, and differential diagnosis.",
+          content: "Clinical indections, Normal sonographic findings, pathological findings, and differential diagnosis",
+          url: "https://imaging-uganda-africa.com/articles/git/appendicitis-ultrasound-1",
+          keywords: ["appendicitis", "acute appendicitis", "chronic appendicitis", "appendiceal ultrasound", "appendix ultrasound", "appendicular ultrasound", "appendiceal inflammation", "appendiceal pathology", "right iliac fossa pain", "RIF pain"]
+        },
+        {
+          id: 19,
+          title: "Appendicitis Imaging diagnosis",
+          description: "Ultrasound and CT features, diagnostic criteria and differential diagnosis of appendicitis",
+          content: "sonographic findings, CT findings, complications and differential diagnosis for appendicitis",
+          url: "https://imaging-uganda-africa.com/articles/git/appendicitis",
+          keywords: ["Acute appendicitis", "appendicitis", "appendiceal inflammation", "appendiceal rupture", "appendicolith", "right lower quadrant pain", "RLQ pain", "pediatric appendicitis", "adult appendicitis", "imaging appendicitis", "CT appendiciti"]
+        },
+        {
+          id: 20,
+          title: "Appendix Ultrasound",
+          description: "Appendix ultrasound as a valuable diagnostic tool for evaluating acute appendicitis and other appendiceal pathologies, particularly in children and young adults",
+          content: "sonographic anatomy, indications, technique, normal findings, and pathological findings",
+          url: "https://imaging-uganda-africa.com/articles/git/appendix-ultrasound",
+          keywords: ["Appendix ultrasound", "Appendicitis sonography", "RLQ pain", "Acute appendicitis", "Appendiceal abscess", "Pediatric appendicitis"]
+        },
+        {
+          id: 21,
+          title: "Gastrointestinal Ultrasound",
+          description: "Gastrointestinal ultrasound is an essential diagnostic tool for evaluating bowel pathology, including inflammation, obstruction, and tumors.",
+          content: "sonographic anatomy, indications, technique, normal findings, and pathological findings of gastrointestinal ultrasound",
+          url: "https://imaging-uganda-africa.com/articles/git/git-ultrasound.html",
+          keywords: ["GI ultrasound", "Bowel sonography", "Appendicitis", "Crohn's disease", "Intussusception", "Bowel obstruction", "Colonic tumors"]
+        },
+        {
+          id: 22,
+          title: "Inflammatory Bowel Disease Ultrasound",
+          description: "Ultrasound features, diagnostic criteria and differential diagnosis of inflammatory bowel disease (Crohn's disease and ulcerative colitis)",
+          content: "Chron's disease, Ulcerative colitis, sonographic findings, complications and differential diagnosis for inflammatory bowel disease",
+          url: "https://imaging-uganda-africa.com/articles/git/ibd-ultrasound",
+          keywords: ["IBD ultrasound", "Crohn's disease ultrasound", "ulcerative colitis ultrasound", "bowel wall thickening", "mesenteric fat hypertrophy", "inflammatory bowel disease", "intestinal ultrasound", "gastrointestinal ultrasound"]
+        },
+        {
+          id: 23,
+          title: "Ultrasound of Bowel Obstruction",
+          description: "Ultrasound features, diagnostic criteria and differential diagnosis of bowel obstruction including mechanical obstruction, paralytic ileus and closed loop obstruction",
+          content: "Chron's disease, Ulcerative colitis, sonographic findings, complications and differential diagnosis for inflammatory bowel disease",
+          url: "https://imaging-uganda-africa.com/articles/git/io-ultrasound",
+          keywords: ["bowel obstruction", "small bowel obstruction", "large bowel obstruction", "paralytic ileus", "closed loop obstruction", "intestinal obstruction", "SBO ultrasound", "LBO"]
         },
       ],
       cases: [
@@ -198,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/liver-abscess-1",
           keywords: ["Hepatic abscess", "Pyogenic liver abscess", "Liver abscess", "Liver abscesses", "Hepatic abscesses", "infection", "infectious disease"]
         },
-          {
+        {
           id: 107,
           title: "Pancreatic pseudocyst",
           description: "A 45-year-old male with history of recurrent pancreatitis presents with epigastric pain and early satiety",
@@ -206,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/cases/pancreatic-pseudal-cyst-case-1",
           keywords: ["Pancreatic pseudocyst", "Pancreas ultrasound", "Pancreatic cyst", "Pancreatic fluid collection", "Pancreatitis complication", "Imaging Uganda/Africa"]
         },
-          {
+        {
           id: 108,
           title: "Acute appendicitis",
           description: "Detailed ultrasound case study of acute appendicitis in a pediatric patient.",

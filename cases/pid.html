@@ -65,20 +65,15 @@
     </header>
 
     <!-- Top Banner Ad -->
-    <div class="ad-container top-banner-ad">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9229143965689002"
-      crossorigin="anonymous"></script>
-      <!-- Top Banner Ad -->
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-9229143965689002"
-           data-ad-slot="1234567890"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <script>
-           (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </div>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-9229143965689002"
+      data-ad-slot="6430372478"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 
     <!-- Article Content -->
     <main class="container article-container">
@@ -88,22 +83,6 @@
           <h2>Ultrasound Case: Pelvic Inflammatory Disease (PID)</h2>
           <p><em>A 28-year-old female with lower abdominal pain and fever</em></p>
         </section>
-
-        <!-- Sidebar Ad (Desktop Only) -->
-        <aside class="ad-container sidebar-ad" style="display: none;">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9229143965689002"
-          crossorigin="anonymous"></script>
-          <!-- Sidebar Ad -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-9229143965689002"
-               data-ad-slot="0987654321"
-               data-ad-format="rectangle"
-               data-full-width-responsive="true"></ins>
-          <script>
-               (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-        </aside>
 
         <!-- presentation -->
         <section class="case-presentation" id="presentation">
@@ -135,9 +114,6 @@
 
         <!-- In-Article Ad -->
         <div class="ad-container in-article-ad">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9229143965689002"
-          crossorigin="anonymous"></script>
-          <!-- In-Article Ad -->
           <ins class="adsbygoogle"
                style="display:block"
                data-ad-client="ca-pub-9229143965689002"
@@ -187,10 +163,19 @@
           </div>
         </section>
         
+        <section class="case-presentation" id="differential">
+          <h3>Differentials</h3>
+          <ul>
+            <li><strong><a href="ectopic-pregnancy.html">Ectopic Pregnancy</a>:</strong> β-hCG positive, no fever, may see adnexal mass with ring of fire on Doppler.</li>
+            <li><strong>Appendicitis:</strong> RLQ pain, fever, but no CMT or vaginal discharge.</li>
+            <li><strong>Ovarian Torsion:</strong> Sudden severe pain, absent venous flow on Doppler.</li>
+            <li><strong>Endometriosis:</strong> Chronic pain, dysmenorrhea, may see endometriomas but no fever.</li>
+            <li><strong>Diverticulitis:</strong> LLQ pain, fever, but GI symptoms predominate.</li>
+          </ul>
+        </section>
+
         <!-- Bottom Ad -->
         <div class="ad-container bottom-ad">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9229143965689002"
-          crossorigin="anonymous"></script>
           <!-- Bottom Ad -->
           <ins class="adsbygoogle"
                style="display:block"
@@ -202,17 +187,6 @@
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
         </div>
-        
-        <section class="case-presentation" id="differential">
-          <h3>Differentials</h3>
-          <ul>
-            <li><strong><a href="ectopic-pregnancy.html">Ectopic Pregnancy</a>:</strong> β-hCG positive, no fever, may see adnexal mass with ring of fire on Doppler.</li>
-            <li><strong>Appendicitis:</strong> RLQ pain, fever, but no CMT or vaginal discharge.</li>
-            <li><strong>Ovarian Torsion:</strong> Sudden severe pain, absent venous flow on Doppler.</li>
-            <li><strong>Endometriosis:</strong> Chronic pain, dysmenorrhea, may see endometriomas but no fever.</li>
-            <li><strong>Diverticulitis:</strong> LLQ pain, fever, but GI symptoms predominate.</li>
-          </ul>
-        </section>
       </article>
     </main>
 
@@ -271,31 +245,5 @@
     <script src="/script/header.js"></script>
     <script src="/script/navButtons.js"></script>
     <script src="/script/newslatter.js"></script>
-    
-    <!-- AdSense Responsive Script -->
-    <script>
-      // Show sidebar ad only on desktop
-      function handleSidebarAd() {
-        const sidebarAd = document.querySelector('.sidebar-ad');
-        if (window.innerWidth > 768) {
-          sidebarAd.style.display = 'block';
-        } else {
-          sidebarAd.style.display = 'none';
-        }
-      }
-      
-      // Initialize and add resize listener
-      window.addEventListener('DOMContentLoaded', handleSidebarAd);
-      window.addEventListener('resize', handleSidebarAd);
-      
-      // Ensure ads don't push content too far down
-      document.addEventListener('DOMContentLoaded', function() {
-        const ads = document.querySelectorAll('.adsbygoogle');
-        ads.forEach(ad => {
-          ad.style.display = 'block';
-          ad.style.overflow = 'hidden';
-        });
-      });
-    </script>
   </body>
 </html>

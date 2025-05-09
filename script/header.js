@@ -196,6 +196,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/git/io-ultrasound",
           keywords: ["bowel obstruction", "small bowel obstruction", "large bowel obstruction", "paralytic ileus", "closed loop obstruction", "intestinal obstruction", "SBO ultrasound", "LBO"]
         },
+          {
+          id: 24,
+          title: "Renal ultrasound",
+          description: "Comprehensive guide to renal ultrasound techniques for hydronephrosis, stones, infections and tumors - with African case examples and scanning protocols.",
+          content: "renal ultrasound techniques, hydronephrosis, renal stones, renal infections, renal tumors, and African case examples",
+          url: "https://imaging-uganda-africa.com/articles/urinary-tract/renal-ultrasound",
+          keywords: ["Renal ultrasound", "Kidney sonography", "Hydronephrosis diagnosis", "Renal stone ultrasound", "Pyelonephritis","Renal mass", "Tropical kidney pathology", "Kidney tumors ultrasound", "Emergency renal ultrasound"]
+        },
       ],
       cases: [
         {

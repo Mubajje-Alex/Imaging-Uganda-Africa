@@ -212,6 +212,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/prostate/prostate-ultrasound",
           keywords: ["Prostate ultrasound", "TRUS", "Prostate cancer diagnosis", "BPH", "Prostatitis", "Prostate biopsy", "Prostate tumors ultrasound"]
         },
+          {
+          id: 26,
+          title: "Utrasound of the uterus",
+          description: "Comprehensive guide to uterine ultrasound techniques for fibroids, adenomyosis, cancers, and congenital anomalies - with African case examples and scanning protocols.",
+          content: "Uterus ultrasound techniques for fibroids, adenomyosis, cancres and congenital anomalies.",
+          url: "https://imaging-uganda-africa.com/articles/uterus/uterus-ultrasound",
+          keywords: ["Uterus ultrasound", "Gynecological ultrasound", "Fibroids", "Adenomyosis", "Endometrial cancer", "Uterine anomalies", "gynecology pathology", "Uterine tumors ultrasound"]
+        },
       ],
       cases: [
         {

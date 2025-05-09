@@ -204,6 +204,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/urinary-tract/renal-ultrasound",
           keywords: ["Renal ultrasound", "Kidney sonography", "Hydronephrosis diagnosis", "Renal stone ultrasound", "Pyelonephritis","Renal mass", "Tropical kidney pathology", "Kidney tumors ultrasound", "Emergency renal ultrasound"]
         },
+          {
+          id: 25,
+          title: "Prostate ultrasound",
+          description: "Comprehensive guide to prostate ultrasound techniques for BPH, cancer, infections - with African case examples and scanning protocols.",
+          content: "prostate ultrasound techniques, BPH, prostate cancer, and prostate infections,",
+          url: "https://imaging-uganda-africa.com/articles/prostate/prostate-ultrasound",
+          keywords: ["Prostate ultrasound", "TRUS", "Prostate cancer diagnosis", "BPH", "Prostatitis", "Prostate biopsy", "Prostate tumors ultrasound"]
+        },
       ],
       cases: [
         {

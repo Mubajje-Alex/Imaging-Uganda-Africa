@@ -28,7 +28,7 @@ const websiteContent = {
 
 document.addEventListener('DOMContentLoaded', function() {
     // Load header
-    fetch('components/header.html')
+    fetch('https://imaging-uganda-africa.com/components/header.html')
         .then(response => response.text())
         .then(data => {
             document.querySelector('body').insertAdjacentHTML('afterbegin', data);
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error loading header:', error));
 
     // Load footer
-    fetch('components/footer.html')
+    fetch('https://imaging-uganda-africa.com/components/footer.html')
         .then(response => response.text())
         .then(data => {
             document.querySelector('body').insertAdjacentHTML('beforeend', data);

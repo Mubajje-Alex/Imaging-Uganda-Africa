@@ -220,6 +220,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/uterus/uterus-ultrasound",
           keywords: ["Uterus ultrasound", "Gynecological ultrasound", "Fibroids", "Adenomyosis", "Endometrial cancer", "Uterine anomalies", "gynecology pathology", "Uterine tumors ultrasound"]
         },
+          {
+          id: 27,
+          title: "Thyroid Ultrasound",
+          description: "Comprehensive guide to neck ultrasound techniques for thyroid nodules, cancers, and inflammatory conditions - with African case examples and scanning protocols.",
+          content: "Guide to neck ultrasound & techniques for thyroid nodules.",
+          url: "https://imaging-uganda-africa.com/articles/neck/thyroid-ultrasound",
+          keywords: ["Thyroid ultrasound",  "Neck ultrasound", "Thyroid cancer", "Thyroiditis", "Parathyroid ultrasound", "Tropical endocrine pathology", "Thyroid nodules", "Thyroid tumors ultrasound"]
+        },
       ],
       cases: [
         {

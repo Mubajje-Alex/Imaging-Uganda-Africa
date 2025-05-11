@@ -228,6 +228,14 @@ document.addEventListener('DOMContentLoaded', function() {
           url: "https://imaging-uganda-africa.com/articles/neck/thyroid-ultrasound",
           keywords: ["Thyroid ultrasound",  "Neck ultrasound", "Thyroid cancer", "Thyroiditis", "Parathyroid ultrasound", "Tropical endocrine pathology", "Thyroid nodules", "Thyroid tumors ultrasound"]
         },
+          {
+          id: 28,
+          title: "Scrotal Ultrasound",
+          description: "Comprehensive guide to scrotal ultrasound techniques for testicular tumors, infections, trauma and infertility - with African case examples and scanning protocols.",
+          content: "Guide to scrotal ultrasound & techniques for testicular tumors, infectios and trauma.",
+          url: "https://imaging-uganda-africa.com/articles/scrotal/scrotal-ultrasound",
+          keywords: ["Scrotal ultrasound", "Testicular ultrasound", "Testicular cancer", "Epididymitis", "testicular Varicocele", "pampinform Varicocele", "Testicular tumors"]
+        },
       ],
       cases: [
         {

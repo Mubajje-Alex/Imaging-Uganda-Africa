@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Map each founder to their CV URL
   const cvUrls = {
-    'Mwanje Pishon': 'https://imaging-uganda-africa.com/mwanje-pishon-cv#google_vignette',
-    'Mubajje Alex': 'https://imaging-uganda-africa.com/mubajje-alex-cv',
-    'LAMECK': 'https://imaging-uganda-africa.com/lameck-cv#google_vignette',
-    'SSENYONGA HENRY': 'https://imaging-uganda-africa.com/ssenyonga-henry-cv',
+    'Mwanje Pishon': 'https://imaging-uganda-africa.com/cv/mwanje-pishon-cv#google_vignette',
+    'Mubajje Alex': 'https://imaging-uganda-africa.com/cv/mubajje-alex-cv',
+    'LAMECK': 'https://imaging-uganda-africa.com/cv/lameck-cv#google_vignette',
+    'SSENYONGA HENRY': 'https://imaging-uganda-africa.com/cv/ssenyonga-henry-cv',
   };
 
   // Add click event to all buttons

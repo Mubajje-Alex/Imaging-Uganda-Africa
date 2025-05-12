@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const cvUrls = {
     'Mwanje Pishon': 'https://imaging-uganda-africa.com/cv/mwanje-pishon-cv#google_vignette',
     'Mubajje Alex': 'https://imaging-uganda-africa.com/cv/mubajje-alex-cv',
-    'LAMECK': 'https://imaging-uganda-africa.com/cv/lameck-cv#google_vignette',
+    'LAMECK': 'https://imaging-uganda-africa.com/cv/lameck-cv',
     'SSENYONGA HENRY': 'https://imaging-uganda-africa.com/cv/ssenyonga-henry-cv',
   };
 

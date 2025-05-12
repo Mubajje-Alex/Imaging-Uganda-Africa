@@ -22,52 +22,25 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/search.css">
-    <link rel="stylesheet" href="styles/newsletter.css">
-    <link rel="stylesheet" href="styles/cv.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/search.css">
+    <link rel="stylesheet" href="../styles/newsletter.css">
+    <link rel="stylesheet" href="../styles/cv.css">
+
+    <!-- load footer & header -->
+    <script src="https://Imaging-Uganda-Africa.com/script/header-footer-loader.js"></script>
 
   </head>
   <body>
     <!-- Header Section -->
-    <header class="header">
-      <div class="header-left">
-        <div class="logo-container">
-          <img src="images/imaging-logo.jpg" alt="Imaging Logo" class="logo">
-          <h1 class="website-name">Imaging Uganda/Africa</h1>
-        </div>
-        <nav class="nav">
-          <button class="nav-button" id="homeButton">
-            <i class="fas fa-home"></i>
-            <span>Home</span>
-          </button>
-          <button class="nav-button active" id="articlesButton">
-            <i class="fas fa-newspaper"></i>
-            <span>Articles</span>
-          </button>
-          <button class="nav-button" id="casesButton">
-            <i class="fas fa-folder-open"></i>
-            <span>Cases</span>
-          </button>
-        </nav>
-      </div>
-
-      <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search articles..." class="search-input">
-        <button id="searchButton" class="search-button">
-          <i class="fas fa-search"></i>
-        </button>
-        <div id="searchResults" class="search-results"></div>
-      </div>
-    </header>
 
     <!-- Main Content -->
     <div class="cv-container">
       <div class="cv-grid">
         <!-- Thumbnail Column -->
         <div class="thumbnail-column">
-          <img src="images/lameck-1.jpg" alt="profile-picture" class="profile-img">
+          <img src="../images/lameck-1.jpg" alt="profile-picture" class="profile-img">
 
           <div class="header-text">
             <h1 class="name">LAMECK</h1>
@@ -158,7 +131,7 @@
                     <li>Trained and supervised radiography and imaging support assistants to follow guidelines and procedures, performing best practices and quality standards.</li>
                   </ul>
                 </div>
-                <img src="images/lameck-3.jpg" alt="lameck" class="experience-img">
+                <img src="../images/lameck-3.jpg" alt="lameck" class="experience-img">
               </div>
             </div>          
           </section>
@@ -190,7 +163,7 @@
                   <li>Planning and coordination</li>
                 </ul>
                 </div>
-                <img src="images/lameck-4.jpg" alt="Massachusetts General Hospital" class="experience-img">
+                <img src="../images/lameck-4.jpg" alt="Massachusetts General Hospital" class="experience-img">
               </div>
             </div>
           </section>
@@ -224,8 +197,8 @@
                   <p class="item-subtitle">UK imaging and oncology 2023 attendance Certificate- Liverpool, UK</p>
                     <p class="item-subtitle">Delft imaging (digital imaging and Al): Multiple certificates including factory training in Veenendaal, The Netherlands</p>
                 </div>
-                <img src="images/lameck-5.jpg" alt="lameck" class="experience-img">
-                <img src="images/lameck-1.jpg" alt="lameck" class="experience-img">
+                <img src="../images/lameck-5.jpg" alt="lameck" class="experience-img">
+                <img src="../images/lameck-1.jpg" alt="lameck" class="experience-img">
               </div>
             </div>          
           </section>
@@ -277,74 +250,7 @@
     </div>
 
     <!-- Footer Section -->
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-column">
-          <h3 class="footer-title">Imaging Uganda/Africa</h3>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="about.html">Our Team</a></li>
-            <li><a href="about.html">Careers</a></li>
-            <li><a href="about.html">Press</a></li>
-            <li><a href="about.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3 class="footer-title">Resources</h3>
-          <ul class="footer-links">
-            <li><a href="articles.html">All Articles</a></li>
-            <li><a href="cases.html">Radiology Cases</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3 class="footer-title">Connect</h3>
-          <div class="social-links">
-            <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://linkedin.com" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://youtube.com" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-          </div>
-          <div class="newsletter">
-            <h4>Subscribe to our newsletter</h4>
-            <form class="newsletter-form">
-              <input type="email" placeholder="Your email address" required>
-              <button type="submit">Subscribe</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Imaging Uganda/Africa. All rights reserved.</p>
-        <div class="footer-lang">
-          <select aria-label="Language selector">
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-            <option value="de">Deutsch</option>
-          </select>
-        </div>
-      </div>
-    </footer>
 
-    <script src="script/header.js"></script>
-    <script src="script/navButtons.js"></script>
     <script src="script/newslatter.js"></script>
-    <script>
-      // Set active nav button
-      // document.getElementById('articlesButton').classList.add('active');
-      // document.getElementById('homeButton').classList.remove('active');
-      // document.getElementById('casesButton').classList.remove('active');
-      
-      // Load ads after content
-      // document.addEventListener('DOMContentLoaded', function() {
-      //   setTimeout(function() {
-      //     var ads = document.querySelectorAll('.adsbygoogle');
-      //     ads.forEach(function(ad) {
-      //       (adsbygoogle = window.adsbygoogle || []).push({});
-      //     });
-      //   }, 500);
-      // });
-    </script>
   </body>
 </html>

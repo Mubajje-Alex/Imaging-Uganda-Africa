@@ -339,9 +339,9 @@ function initializeHeader() {
   initializeSearch();
 
   // Add navigation event listeners
-  document.getElementById('homeButton')?.addEventListener('click', () => navigateTo('home'));
-  document.getElementById('articlesButton')?.addEventListener('click', () => navigateTo('articles'));
-  document.getElementById('casesButton')?.addEventListener('click', () => navigateTo('cases'));
+  document.getElementById('homeButton')?.addEventListener('click', () => navigateTo('https://imaging-uganda-africa.com/index.html'));
+  document.getElementById('articlesButton')?.addEventListener('click', () => navigateTo('https://imaging-uganda-africa.com/articles.html'));
+  document.getElementById('casesButton')?.addEventListener('click', () => navigateTo('https://imaging-uganda-africa.com/cases.html'));
 }
 
 function initializeFooter() {

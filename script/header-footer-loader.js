@@ -317,31 +317,43 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initializeHeader() {
-  // Set active button based on current page
-  const path = window.location.pathname;
-  const page = path.split('/').pop().split('.')[0]; // Get the page name without extension
-
-  // Remove active class from all buttons first
-  document.querySelectorAll('.nav-button').forEach(button => {
-    button.classList.remove('active');
-  });
-
-  // Set active class based on current page
-  if (page === 'index' || page === '') {
-    document.getElementById('homeButton').classList.add('active');
-  } else if (page === 'articles' || page.startsWith('articles-')) {
-    document.getElementById('articlesButton').classList.add('active');
-  } else if (page === 'cases') {
-    document.getElementById('casesButton').classList.add('active');
-  }
-
-  // Initialize search functionality
-  initializeSearch();
-
-  // Add navigation event listeners
-  document.getElementById('homeButton')?.addEventListener('click', () => navigateTo('https://imaging-uganda-africa.com/index.html'));
-  document.getElementById('articlesButton')?.addEventListener('click', () => navigateTo('https://imaging-uganda-africa.com/articles.html'));
-  document.getElementById('casesButton')?.addEventListener('click', () => navigateTo('https://imaging-uganda-africa.com/cases.html'));
+    // Set active button based on current page
+    const path = window.location.pathname;
+    
+    // Remove active class from all buttons first
+    document.querySelectorAll('.nav-button').forEach(button => {
+        button.classList.remove('active');
+    });
+    
+    // Check if path contains 'articles' or 'cases' regardless of directory depth
+    if (path.includes('/articles/') || path.endsWith('/articles') || 
+        path.includes('articles.html') || path.includes('articles-')) {
+        document.getElementById('articlesButton').classList.add('active');
+    } 
+    else if (path.includes('/cases/') || path.endsWith('/cases') || 
+             path.includes('cases.html') || path.includes('cases-')) {
+        document.getElementById('casesButton').classList.add('active');
+    }
+    else {
+        // Default to home if no other matches
+        document.getElementById('homeButton').classList.add('active');
+    }
+    
+    // Initialize search functionality
+    initializeSearch();
+    
+    // Add navigation event listeners
+    document.getElementById('homeButton')?.addEventListener('click', () => {
+        window.location.href = 'https://imaging-uganda-africa.com/index.html'; // Adjust to your home page URL
+    });
+    
+    document.getElementById('articlesButton')?.addEventListener('click', () => {
+        window.location.href = 'https://imaging-uganda-africa.com/articles.html'; // Adjust to your articles page URL
+    });
+    
+    document.getElementById('casesButton')?.addEventListener('click', () => {
+        window.location.href = 'https://imaging-uganda-africa.com/cases.html'; // Adjust to your cases page URL
+    });
 }
 
 function initializeFooter() {

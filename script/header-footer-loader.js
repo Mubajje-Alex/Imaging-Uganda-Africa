@@ -293,6 +293,14 @@ const websiteContent = {
       url: "https://imaging-uganda-africa.com/cases/acute-appendicitis",
       keywords: ["acute appendicitis", "ultrasound diagnosis", "pediatric appendicitis", "radiology case", "ultrasound findings", "appendicitis imaging"]
     },
+    {
+      id: 109,
+      title: "Intrauterine Pregnancy with IUD in situ",
+      description: "Ultrasound case study of coexisting intrauterine pregnancy with IUD in situ at 7 weeks gestation. Learn about ultrasound features, management options, and complications from imaging Uganda/Africa radiology experts.",
+      content: "Learn key diagnostic features of early intrauterine pregnancy with iud, including physical exam findings, ultrasound findings, management consideration, differential diagnoses.",
+      url: "https://imaging-uganda-africa.com/cases/IUP-with-IUD.html",
+      keywords: ["IUD pregnancy", "intrauterine device", "early pregnancy", "contraceptive failure", "IUD complications", "pregnancy with IUD"]
+    },
   ]
 };
 

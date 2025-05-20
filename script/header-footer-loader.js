@@ -226,6 +226,14 @@ const websiteContent = {
       url: "https://imaging-uganda-africa.com/articles/scrotal/scrotal-ultrasound",
       keywords: ["Scrotal ultrasound", "Testicular ultrasound", "Testicular cancer", "Epididymitis", "testicular Varicocele", "pampinform Varicocele", "Testicular tumors"]
     },
+    {
+      id: 29,
+      title: "Pelvic Inflammatory Disease (PID) Ultrasound",
+      description: "Ultrasound features, diagnostic criteria and differential diagnosis of Pelvic Inflammatory Disease.",
+      content: "Comprehensive guide to PID ultrasound including findings of acute salpingitis, pyosalpinx, TOA, oophoritis, endometritis, and pelvic peritonitis.",
+      url: "https://imaging-uganda-africa.com/articles/gynecology/pid",
+      keywords: ["PID", "oophoritis", "pelvic inflammatory disease", "tubo-ovarian abscess", "salpingitis", "endometritis", "Fitz-Hugh-Curtis syndrome", "TOA", "ovarian inflammation", "gynecological ultrasound"]
+    },
   ],
   cases: [
     // Your case data (same as in your previous code)

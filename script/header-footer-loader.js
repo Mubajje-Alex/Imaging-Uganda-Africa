@@ -309,6 +309,14 @@ const websiteContent = {
       url: "https://imaging-uganda-africa.com/cases/IUP-with-IUD.html",
       keywords: ["IUD pregnancy", "intrauterine device", "early pregnancy", "contraceptive failure", "IUD complications", "pregnancy with IUD"]
     },
+    {
+      id: 110,
+      title: "Epididymal head cyst",
+      description: "Detailed ultrasound case study of Epididymal Head Cyst with imaging findings and differential diagnosis.",
+      content: "Detailed ultrasound case study of Epididymal Head Cyst with imaging findings and differential diagnosis",
+      url: "https://imaging-uganda-africa.com/cases/epididymal-head-cyst.html",
+      keywords: ["Epididymal cyst", "spermatocele", "scrotal ultrasound", "testicular cyst", "male infertility ultrasound", "scrotal mass"]
+    },
   ]
 };
 

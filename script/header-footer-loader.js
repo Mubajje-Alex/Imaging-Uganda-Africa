@@ -358,8 +358,8 @@ function initializeHeader() {
            path.includes('cases.html') || path.includes('cases-')) {
     document.getElementById('casesButton').classList.add('active');
   }
-  else if (path.includes('/equipment/') || path.endsWith('/equipment') || 
-           path.includes('equipment.html') || path.includes('equipment-')) {
+  else if (path.includes('/equipments/') || path.endsWith('/equipments') || 
+           path.includes('equipments.html') || path.includes('equipments-')) {
     document.getElementById('equipmentButton').classList.add('active');
   }
   else {

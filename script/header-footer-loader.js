@@ -360,7 +360,7 @@ function initializeHeader() {
   }
   else if (path.includes('/equipments/') || path.endsWith('/equipments') || 
            path.includes('equipments.html') || path.includes('equipments-')) {
-    document.getElementById('equipmenstButton').classList.add('active');
+    document.getElementById('equipmentsButton').classList.add('active');
   }
   else {
     // Default to home if no other matches

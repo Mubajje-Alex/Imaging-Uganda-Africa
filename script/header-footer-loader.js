@@ -384,7 +384,7 @@ function initializeHeader() {
   });
   
   document.getElementById('equipmentButton')?.addEventListener('click', () => {
-    window.location.href = 'https://imaging-uganda-africa.com/equipment.html';
+    window.location.href = 'https://imaging-uganda-africa.com/equipments.html';
   });
 }
 

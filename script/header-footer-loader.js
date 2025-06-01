@@ -393,7 +393,7 @@ function initializeFooter() {
 }
 
 function navigateTo(page) {
-  const buttons = ['homeButton', 'articlesButton', 'casesButton'];
+  const buttons = ['homeButton', 'articlesButton', 'casesButton', 'equipmentsButton'];
   buttons.forEach(buttonId => {
     const button = document.getElementById(buttonId);
     if (button) button.classList.remove('active');

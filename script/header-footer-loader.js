@@ -383,7 +383,7 @@ function initializeHeader() {
     window.location.href = 'https://imaging-uganda-africa.com/cases.html';
   });
   
-  document.getElementById('equipmentButton')?.addEventListener('click', () => {
+  document.getElementById('equipmentsButton')?.addEventListener('click', () => {
     window.location.href = 'https://imaging-uganda-africa.com/equipments.html';
   });
 }
